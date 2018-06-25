@@ -1,0 +1,48 @@
+body{ margin: 0;padding: 0;}
+.banner{
+	width: 1600px;
+	height: 900px;
+	background-image: url(../img/banner.jpg); 
+	-webkit-background-size: cover;
+	position: relative;
+}
+.banner .banner_title{
+	width: 700px;
+	height: 218px;
+	position: absolute;
+	top: 208px;
+	left: 419px;
+}
+.banner .banner_title .hello_world{
+	width: 322px;
+	height: 48px;
+	margin: 0 auto;
+	font-family: "Montserrat-ExtraLight";
+	font-size: 62px;
+	line-height: 72px;
+	color: white;
+	margin-bottom: 90px;
+}
+.banner .banner_title .content{
+	font-family: "Montserrat-ExtraLight";
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 25px;
+	opacity: 0.7;
+}
+.banner .banner_login{
+	width: 970px;
+	height: 250px;
+	border: 1px solid lightgray;
+	position: absolute;
+	top: 530px;
+	left: 315px;
+}
+.banner_login h1{
+	padding-top: 61px;
+	width: 241px;
+	font-size: 16px;
+	margin: 0 auto;
+	color: white;
+}
