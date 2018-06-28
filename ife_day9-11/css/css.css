@@ -1,48 +1,97 @@
-body{ margin: 0;padding: 0;}
-.banner{
+*{margin: 0;
+padding: 0;}
+.header{
 	width: 1600px;
-	height: 900px;
-	background-image: url(../img/banner.jpg); 
-	-webkit-background-size: cover;
+	height: 990px;
+	background: url(../img/bg.png);
+}
+.header .header_wrap{
+	width: 1600px;
+	height: 990px;
+	background: black;
+	opacity: 0.65;
 	position: relative;
 }
-.banner .banner_title{
-	width: 700px;
+.header_wrap .title{
+	width: 800px;
 	height: 218px;
+	margin: 0 auto;
 	position: absolute;
 	top: 208px;
 	left: 419px;
 }
-.banner .banner_title .hello_world{
-	width: 322px;
+.header_wrap .title h1{
+	width: 400px;
 	height: 48px;
 	margin: 0 auto;
-	font-family: "Montserrat-ExtraLight";
+	padding: 0;
+	font-family:Montserrat-ExtraLight;
 	font-size: 62px;
-	line-height: 72px;
-	color: white;
-	margin-bottom: 90px;
+	line-height: 47px;
+	color: #ffffff;
 }
-.banner .banner_title .content{
-	font-family: "Montserrat-ExtraLight";
+.header_wrap .title p{
+	font-family:Montserrat-ExtraLight;
 	font-size: 20px;
-	letter-spacing: 1px;
-	text-align: center;
-	line-height: 25px;
+	line-height: 32px;
+	color: rgba(255, 255, 255, 0.7);
 	opacity: 0.7;
+	margin-top: 100px;
+	text-align: center;
 }
-.banner .banner_login{
+.header_wrap .login{
 	width: 970px;
 	height: 250px;
-	border: 1px solid lightgray;
 	position: absolute;
 	top: 530px;
 	left: 315px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 1;
 }
-.banner_login h1{
-	padding-top: 61px;
-	width: 241px;
-	font-size: 16px;
+.login h1{
+	width: 220px;
 	margin: 0 auto;
-	color: white;
+	font-family: Montserrat-Light;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-top: 61px;
+}
+.login h2{
+	width: 170px;
+	height: 10px;
+	margin: 0 auto;
+	padding-top: 19px;
+	font-family: Montserrat-Light;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.4);
+}
+.login form{
+	margin-top: 45px;
+	font-family: Montserrat-Light;
+}
+.mail{
+	width: 292px;
+	height: 50px;
+	margin-left:100px ;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: transparent;
+	color: #ffffff;
+	padding-left:22px ;
+}
+.pwd{
+	width: 292px;
+	height: 50px;
+	margin-left:30px ;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.3);
+	padding-left:22px ;
+}
+.btn1{
+	background: white;
+	width: 125px;
+	height: 50px;
+	margin-left:30px ;
+	border-radius: 1;
+	color: #141414;
 }
